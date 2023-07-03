@@ -1,0 +1,182 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mulish', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 0.5rem 2.5%;
+    background-color: #526D82;
+}
+
+.navbar-brand {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 2.5rem;
+    color: #FFEAD2;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #DDE6ED;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #27374D;
+}
+
+/*Home page*/
+
+#title .container-fluid {
+    padding: 14% 8%;
+}
+
+.title-image {
+    width: 40%;
+    position:absolute;
+    left: 55%;
+    mix-blend-mode: normal;
+}
+
+.big-header {
+    position: relative;
+    padding-top: 15%;
+    font-size: 3rem;
+    color: #F4EEE0;
+    font-weight: 200;
+}
+
+/*About*/
+
+#About .container-fluid {
+    background-color: #1B2430;
+    padding: 8% 8% 13%;
+}
+
+.Image2 {
+    width: 38%;
+    height: 300px;
+    float: left;
+    margin: 40px 40px 40px 0;
+}
+
+.AboutHeading {
+    color: antiquewhite;
+}
+
+.AboutMe {
+    font-family: 'PT Serif', serif;
+    color: #E7F6F2;
+    font-size: 2rem;
+}
+
+.AboutMessage {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #A5C9CA;
+}
+
+/*Service*/
+
+#Service .container-fluid {
+    background-color: #9AC5F4;
+    padding: 9% 7% 9% 7%;
+}
+
+.service-box {
+    padding: 0 4%;
+}
+
+.service-head-1 {
+    font-family: 'PT Serif', serif;
+    padding: 40px 0 10px 0;
+}
+
+.service-head-2 {
+    font-family: 'PT Serif', serif;
+    padding: 24px 0 10px 0;
+}
+
+.service-head-3 {
+    font-family: 'PT Serif', serif;
+    padding: 40px 0 10px 0;
+}
+
+.service-text {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/*Projects*/
+
+#Projects .container-fluid {
+    background-color: #87CBB9;
+    padding: 5% 0 9%;
+}
+
+.Project-Image {
+    width: 80%;
+}
+
+.carousel-item {
+    margin: 3% 0 3% 10%;
+}
+
+.carousel-caption {
+    margin-right: 20%;
+    top: 80%;
+}
+
+.caption-head-light {
+    font-family: 'Playfair Display', serif;
+    color: #DDE6ED;
+}
+
+.caption-head-dark {
+    font-family: 'Playfair Display', serif;
+    color: #27374D;
+}
+
+.caption-message-light {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #9DB2BF;
+}
+
+.caption-message-dark {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #27374D;
+}
+
+/*Contacts*/
+
+#Contact .container-fluid {
+    background-color: #FFEEBB;
+    padding: 6% 12% 6%;
+    text-align: center;
+}
+
+.Contact-message {
+    font-family: 'Merriweather', serif;
+    font-size : 1.8rem;
+    position: center;
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+
+.icon {
+    margin: 0% 60px;
+}
+
+.icon :hover {
+    cursor: pointer;
+}
